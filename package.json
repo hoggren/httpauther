@@ -1,42 +1,5 @@
 {
-  "_args": [
-    [
-      "httpauther",
-      "/Users/ghost/Utveckling/httpauther2"
-    ]
-  ],
-  "_from": "httpauther@*",
-  "_id": "httpauther@0.1.5",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/httpauther",
-  "_nodeVersion": "0.12.2",
-  "_npmUser": {
-    "email": "phoggren@gmail.com",
-    "name": "phoggren"
-  },
-  "_npmVersion": "2.7.4",
-  "_phantomChildren": {},
-  "_requested": {
-    "name": "httpauther",
-    "raw": "httpauther",
-    "rawSpec": "",
-    "scope": null,
-    "spec": "*",
-    "type": "range"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/httpauther/-/httpauther-0.1.5.tgz",
-  "_shasum": "1eff7ad44865dd25e9f1644a605c7d143daf3d7c",
-  "_shrinkwrap": null,
-  "_spec": "httpauther",
-  "_where": "/Users/ghost/Utveckling/httpauther2",
-  "author": {
-    "email": "phoggren@gmail.com",
-    "name": "Patrik Hoggren"
-  },
+  "author": "Patrik Hoggren <phoggren@gmail.com>",
   "bugs": {
     "url": "https://github.com/phoggren/httpauther/issues"
   },
@@ -44,19 +7,12 @@
     "express": ">=4.0.0"
   },
   "description": "A middleware for express.js to use HTTP basic authentication to protect your web",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "1eff7ad44865dd25e9f1644a605c7d143daf3d7c",
-    "tarball": "https://registry.npmjs.org/httpauther/-/httpauther-0.1.5.tgz"
-  },
   "files": [
     "README.md",
     "index.js",
     "package.json",
     "testexpress.js"
   ],
-  "gitHead": "37829fcb0991e8b924723557c27f673c3a87042a",
   "homepage": "https://github.com/phoggren/httpauther",
   "keywords": [
     "basic auth",
@@ -70,20 +26,15 @@
   "license": "ISC",
   "main": "index.js",
   "maintainers": [
-    {
-      "name": "phoggren",
-      "email": "phoggren@gmail.com"
-    }
+    "phoggren <phoggren@gmail.com>"
   ],
   "name": "httpauther",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/phoggren/httpauther.git"
   },
+  "version": "0.1.7",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "0.1.6"
+    "test": "node testexpress.js"
+  }
 }

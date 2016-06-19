@@ -2,10 +2,10 @@
 A middleware for [express.js](http://expressjs.com) to use HTTP basic authentication to protect your web.
 
 ### Usage
-Enter your desired username and password when calling httpauther. You must enter your password hashed with MD5.
+Enter your desired username and password when calling httpauther. You must enter your password hashed with MD5 which you can do online.
 
 **Terminal:** `npm install httpauther --save`  
-**Your express-app:** `var httpauther = require('httpauther')('realm', 'usr', 'md5 hash');`
+**Your express-app:** `var httpauther = require('httpauther')('realm', 'usr', '<md5 hash>');`
 
 ### Example code
     var express = require('express');
