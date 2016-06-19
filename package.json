@@ -33,7 +33,7 @@
     "type": "git",
     "url": "git+https://github.com/phoggren/httpauther.git"
   },
-  "version": "0.1.7",
+  "version": "0.1.8",
   "scripts": {
     "test": "node testexpress.js"
   }
